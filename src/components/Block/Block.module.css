@@ -1,0 +1,22 @@
+.block {
+  width: 60px;
+  height: 60px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block_1 {
+  animation: upAndDown 5s ease infinite;
+}
+
+@keyframes upAndDown {
+  0%,
+  100% {
+    transform: translateY(60px);
+  }
+  50% {
+    transform: translateY(-60px);
+  }
+}
