@@ -1,3 +1,5 @@
+Для анимации круга из одного квадрата в цетр другого можно было бы сделать с помощью ref-оф и метода .getBoundingClientRect()
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
